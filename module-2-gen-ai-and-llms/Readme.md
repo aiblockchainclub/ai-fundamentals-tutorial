@@ -17,8 +17,8 @@
 
    ```bash
    cd module-2-gen-ai-and-llms
-   npx create vite@latest
    cd fronted
+   npm i
    npm start
    ```
 
@@ -26,7 +26,7 @@
 
    ```bash
    cd module-2-gen-ai-and-llms/backend
-   bun add  express body-parser openai cors
+   bun add ./
    bun run  index.ts
    ```
 
@@ -34,5 +34,5 @@
 
 #### Key Files
 
-- `frontend/Chatbot.tsx`: React component for chatbot UI
-- `backend/index.ts`: Node.js server handling OpenAI API requests
+- `frontend/src/Chatbot.tsx`: React component for chatbot UI
+- `backend/index.ts`: Node.js server handling Gemini API requests
